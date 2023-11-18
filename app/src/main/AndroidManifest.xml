@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mobil"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiPersewaanMobil">
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.GPSActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC24H_OsI9LEAnNdmD0d25HOLhXCVYN3u4" />
+
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.DetailMobilActivity"
+            android:exported="true"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.DaftarMobilActivity"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.DataHelper"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.DetailPenyewaActivity"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.InfoActivity"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.SewaMobilActivity"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.Splash"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.PenyewaActivity"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.BantuanActivity"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.CameraActivity"
+            android:exported="true" />
+        <activity
+            android:name="id.ac.stiki.doleno.aplikasipersewaanmobil.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

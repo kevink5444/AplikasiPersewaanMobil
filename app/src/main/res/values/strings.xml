@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplikasi Persewaan Mobil</string>
+    <string name="panduanaplikasi">Aplikasi ini merupakan Aplikasi Pemesanan Mobil yang terdapat beberapa button atau tombol,yang pertama adalah Informasi Mobil didalam Informasi Mobil terdapat beberapa jenis Mobil Seperti : Avanza,Xenia,Ertiga,APV,Innova,Xpander,Pregio,ELF,Alphard</string>
+    <string name="panduanaplikasi2">Lalu juga terdapat bagian Sewa Mobil yang dapat menambahkan Daftar Penyewa dengan menekan tombol Tambah Penyewa,didalamnya terdapat Identitas Penyewa dan Data Mobil yang wajib diisi,juga dapat melihat data yang sudah diinputkan dan dapat menghapus data penyewa</string>
+    <string name="panduanaplikasi3">Lalu juga terdapat bagian Info Aplikasi yang didalamnya terdapat Nama Aplikasi,Versi Aplikasi,Logo Aplikasi dan juga tombol untuk kembali ke Halaman Utama</string>
+    <string name="nama_penyewa">Nama Penyewa<font color="red">(*)</font></string>
+    <string name="alamat">Alamat<font color="red">(*)</font></string>
+    <string name="no_telp_hp">No. Telp/HP<font color="red">(*)</font></string>
+    <string name="merk_mobil">Merk Mobil<font color="red">(*)</font></string>
+    <string name="lama_sewa">Lama Sewa<font color="red">(*)</font></string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
